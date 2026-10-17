@@ -1,0 +1,5 @@
+75db741a6be3779fe37f5829757e7e9958bb37ccda14e7b226583a2a2d27fa22  evidence/evtx/Practice-Security.evtx
+24690b7bead360d392ad295c0d8288dd8c731d9ebeca44ba1ef44bde5231548e  evidence/evtx/Phishing Cases/Phishing-Sysmon.evtx
+f0cdc3b67ff35fe0ccff5a6891bc376cbaf2b71efbe2419ac208290711aa231d  evidence/evtx/Practice-Sysmon.evtx
+2101b34c10e439295a0d1d2de280784d243234c32159796add468d37b102e860  evidence/evtx/RDP-Security.evtx
+c2fc47a01d651972159ec5480784c2cf9f6db4f7c3c0eeb1edfa3a069e9c5084  evidence/evtx/USB-Sysmon.evtx

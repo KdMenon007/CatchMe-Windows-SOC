@@ -1,0 +1,302 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 498,
+    "sha256": "ff09c6082cc3f128b9efa1b1f4c625ed1936e9571bdf82ae9822095d1f91783f"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4193,
+    "sha256": "a2776c85024df405c3e8855af5cfd04ef2c8e0892151f689240ced809b1de291"
+  },
+  {
+    "path": "cases/phishing-binary/README.md",
+    "bytes": 1715,
+    "sha256": "3f60e62ee7ffea696774c04bb7096bb2b7a4732849134396d9984f096d78dcd0"
+  },
+  {
+    "path": "cases/phishing-lnk/README.md",
+    "bytes": 2176,
+    "sha256": "b63095e905a6872c07a22dd413b19bad6c83f27921e48cef6ca6fdd74fcb23f7"
+  },
+  {
+    "path": "cases/rdp-initial-access/README.md",
+    "bytes": 2161,
+    "sha256": "04b8b8f1d22c76c790587a7b0e26ed0be13cd88f6a48f081acb506c8ea63fa5b"
+  },
+  {
+    "path": "cases/usb-initial-access/README.md",
+    "bytes": 1962,
+    "sha256": "a4fda63d896b2d87385b511479c09038f388e2c56138a326903abef5462011ba"
+  },
+  {
+    "path": "detections/initial-detection-hypotheses.md",
+    "bytes": 2246,
+    "sha256": "28af29e39ecb807756b5a69edcea5e6b90b7f36d8ad4f8799715a4ba79ff7e9b"
+  },
+  {
+    "path": "docs/01-project-scope-and-status.md",
+    "bytes": 2081,
+    "sha256": "208ef79a732c8f471cc44f475ec4379108995f92752b8dee7c2fa4179668753f"
+  },
+  {
+    "path": "docs/02-windows-logging-fundamentals.md",
+    "bytes": 4359,
+    "sha256": "57e8cd0d0c9f0375f4921eaf59dcc5613e6378bb3e27d7740c689c92c4f0c4de"
+  },
+  {
+    "path": "docs/03-security-log-investigation.md",
+    "bytes": 1812,
+    "sha256": "ff1a1daa2c24a222b4064415825afeba1e5078f08b2a5e890e34c3e7c904ecd6"
+  },
+  {
+    "path": "docs/04-sysmon-investigation.md",
+    "bytes": 1500,
+    "sha256": "aeb7416a920748961cb933e3ba25665c80f97e64193ba4cc6317296c93e0c96a"
+  },
+  {
+    "path": "docs/05-powershell-investigation.md",
+    "bytes": 2093,
+    "sha256": "2bc7b471116464bb813ff4a11d17c771216e1d2ad1bc31ee21745edc25e687fa"
+  },
+  {
+    "path": "docs/06-mitre-attack-mapping.md",
+    "bytes": 2128,
+    "sha256": "4faf809fe7b5d0eeb393a00a6e6e2b83a2a39687680005268737f7631b146875"
+  },
+  {
+    "path": "evidence/evidence-register.md",
+    "bytes": 5157,
+    "sha256": "df69b98c7f791ea6453afae3e988c8a2b475209b7f2485f0d895c9c4f47f051a"
+  },
+  {
+    "path": "evidence/evtx/Phishing Cases/Phishing-Sysmon.evtx",
+    "bytes": 1118208,
+    "sha256": "24690b7bead360d392ad295c0d8288dd8c731d9ebeca44ba1ef44bde5231548e"
+  },
+  {
+    "path": "evidence/evtx/Phishing Cases/nice-cat-1.jpg",
+    "bytes": 46414,
+    "sha256": "3f408cad070b581c471f3409e5fadd34b28848cbff1720089c4c95126e2e7c0b"
+  },
+  {
+    "path": "evidence/evtx/Phishing Cases/nice-cat-2.png",
+    "bytes": 299653,
+    "sha256": "99263302326190d6fbe24bf616a8c9470b2bb03a5e50331703a5532c0de8ad99"
+  },
+  {
+    "path": "evidence/evtx/Phishing Cases/www.skype.com",
+    "bytes": 2323968,
+    "sha256": "fbb48e269fcc7287e649c55a403684cf74d919cd1da4a49cb21234212e462778"
+  },
+  {
+    "path": "evidence/evtx/Practice-Security.evtx",
+    "bytes": 69632,
+    "sha256": "75db741a6be3779fe37f5829757e7e9958bb37ccda14e7b226583a2a2d27fa22"
+  },
+  {
+    "path": "evidence/evtx/Practice-Sysmon.evtx",
+    "bytes": 69632,
+    "sha256": "f0cdc3b67ff35fe0ccff5a6891bc376cbaf2b71efbe2419ac208290711aa231d"
+  },
+  {
+    "path": "evidence/evtx/RDP-Security.evtx",
+    "bytes": 1118208,
+    "sha256": "2101b34c10e439295a0d1d2de280784d243234c32159796add468d37b102e860"
+  },
+  {
+    "path": "evidence/evtx/USB-Sysmon.evtx",
+    "bytes": 69632,
+    "sha256": "c2fc47a01d651972159ec5480784c2cf9f6db4f7c3c0eeb1edfa3a069e9c5084"
+  },
+  {
+    "path": "evidence/evtx-sha256.txt",
+    "bytes": 514,
+    "sha256": "45579e8dfbcb3d16207464486f91774ce953a7da7cc6c9e7bad4a52350c98688"
+  },
+  {
+    "path": "evidence/screenshot-manifest.json",
+    "bytes": 4703,
+    "sha256": "6d008087770156e114a361f1739a185b8d509a3c622ab1ad626d422b54f8f2eb"
+  },
+  {
+    "path": "evidence/screenshots/EV-01-supplied-screenshot.png",
+    "bytes": 327475,
+    "sha256": "65c18bbd2d56d75fde3d2aa756c6acc9b985b17b3025b0d03d8d02e083bda364"
+  },
+  {
+    "path": "evidence/screenshots/EV-02-supplied-screenshot.png",
+    "bytes": 195596,
+    "sha256": "195aa8438241f3cb82762515a486b94884bf091e24b47f00fa9a5f39f07ef335"
+  },
+  {
+    "path": "evidence/screenshots/EV-03-supplied-screenshot.png",
+    "bytes": 198779,
+    "sha256": "ff2d79c1f8935f38295a5dd732f785586f625836a4669f8322039f2a20df8c6a"
+  },
+  {
+    "path": "evidence/screenshots/EV-04-supplied-screenshot.png",
+    "bytes": 177100,
+    "sha256": "633f61f2aa6b6ac728a71bcee1d43fd84204faa247e6dabd94d574b689b2b16a"
+  },
+  {
+    "path": "evidence/screenshots/EV-05-supplied-screenshot.png",
+    "bytes": 329957,
+    "sha256": "9c643088c63b8052e14d1f81ef789772526196864d32d115a54f379b099a5f83"
+  },
+  {
+    "path": "evidence/screenshots/EV-06-supplied-screenshot.png",
+    "bytes": 281007,
+    "sha256": "8ba070ffe0a6eca95e0bf926e89dfeedf289b1638dd28fed9964c385d30587f7"
+  },
+  {
+    "path": "evidence/screenshots/EV-07-supplied-screenshot.png",
+    "bytes": 280497,
+    "sha256": "b5ab3d30ff0ec2f9f900067ae381292050b21ad94477e772c0ffb04607cad461"
+  },
+  {
+    "path": "evidence/screenshots/EV-08-supplied-screenshot.png",
+    "bytes": 213170,
+    "sha256": "dde7a08d746a17ae307d45b8c09514db083898f11bb1b3ae8e999311d87a407e"
+  },
+  {
+    "path": "evidence/screenshots/EV-09-supplied-screenshot.png",
+    "bytes": 226946,
+    "sha256": "93e9d36ed43eb9beafc1688a10e0b3fec4bc103dc0868150c7d611549f1a53d9"
+  },
+  {
+    "path": "evidence/screenshots/EV-10-supplied-screenshot.png",
+    "bytes": 246545,
+    "sha256": "c6849c4bdf9ab2f3b5fa4e3b7e9182f79c5335d5fb04121247fffccc9ceb0408"
+  },
+  {
+    "path": "evidence/screenshots/EV-11-supplied-screenshot.png",
+    "bytes": 140443,
+    "sha256": "566b8e1e759b6e3858b4dc7e27491f49bd7fdec5432b0984fe136dd62ea4156c"
+  },
+  {
+    "path": "evidence/screenshots/EV-12-supplied-screenshot.png",
+    "bytes": 147843,
+    "sha256": "fdcf492b7e875e8d2564f5122f3496b2a32e79788298acdb5ce42c0358141e38"
+  },
+  {
+    "path": "evidence/screenshots/EV-13-supplied-screenshot.png",
+    "bytes": 154366,
+    "sha256": "88135506929b71e3015f01db8aeed60450db2d34638ff08fa9d52b34354c113f"
+  },
+  {
+    "path": "evidence/screenshots/EV-14-supplied-screenshot.png",
+    "bytes": 299229,
+    "sha256": "37fab8d1cf42c8cdfdc8ad1f8cac4ebb5b0faec9a2bea454f3d15c3b45c1b07e"
+  },
+  {
+    "path": "evidence/screenshots/EV-15-supplied-screenshot.png",
+    "bytes": 29338,
+    "sha256": "6e06e2ad7b6009700900311fc339ddad8f5d1c15d78c0cd8da1d35ef637af803"
+  },
+  {
+    "path": "evidence/screenshots/EV-16-supplied-screenshot.png",
+    "bytes": 25228,
+    "sha256": "80fbed642c52cc95e157dc5562364a46d41f890b8964c8177560a5432b550153"
+  },
+  {
+    "path": "evidence/screenshots/EV-17-supplied-screenshot.png",
+    "bytes": 29457,
+    "sha256": "72c5f81952cff5bb2adf329ad5314879ee3ae3d1807dc6e54e0e08cfdb38dde8"
+  },
+  {
+    "path": "evidence/screenshots/EV-18-initial-access-exposed-services-overview.png",
+    "bytes": 66375,
+    "sha256": "99bab549628ff3aca88efcf8136ceb6fd360d5276c153ef5d5ae780135e156d4"
+  },
+  {
+    "path": "evidence/screenshots/EV-19-initial-access-user-driven-overview.png",
+    "bytes": 67444,
+    "sha256": "04b54d04d60e50afdd7667c5a7ce8bca6bdaafaacb974beedfc60f8304bf5869"
+  },
+  {
+    "path": "evidence/screenshots/EV-20-rdp-security-failed-and-successful-logons.png",
+    "bytes": 198786,
+    "sha256": "088d850bc668ff33e4ab7cf70f9396cfc2a7f16515291f1c9a6206c509c9c797"
+  },
+  {
+    "path": "evidence/screenshots/EV-21-rdp-successful-logon-source-and-workstation.png",
+    "bytes": 136855,
+    "sha256": "0ad16943f1089c11ca7951dda7f0e5d549aaa2afd6466292a470a65283996bf6"
+  },
+  {
+    "path": "evidence/screenshots/EV-22-phishing-case1-misleading-extension-executable.png",
+    "bytes": 64006,
+    "sha256": "980877bdf66f13512d6662eb3d418bd12a0e4db10f74cb086364f06eeeeeb147"
+  },
+  {
+    "path": "evidence/screenshots/EV-23-phishing-lnk-shortcut-target.png",
+    "bytes": 38818,
+    "sha256": "bc27c957c7a699f0f66e38777558c29ac87e85b4ad33d706701b1c90f557065d"
+  },
+  {
+    "path": "evidence/screenshots/EV-24-phishing-case3-files-and-sysmon-log.png",
+    "bytes": 26508,
+    "sha256": "383c10c1a2bff0ebc1d0695e262b0cee6c00c72704e6d5912f73e7508d8be55f"
+  },
+  {
+    "path": "evidence/screenshots/EV-25-phishing-case3-sysmon-process-creation.png",
+    "bytes": 177878,
+    "sha256": "44a0133b7e830bc157ecaaecdb29106ffb4be43d2a9951cc5b96ea70e5ce11fc"
+  },
+  {
+    "path": "evidence/screenshots/EV-26-phishing-case3-sysmon-dns-query.png",
+    "bytes": 118592,
+    "sha256": "32d505a3d574f3ce8b9a5ec4243579cd5a9411c2dd4463186e090bd90f8099aa"
+  },
+  {
+    "path": "evidence/screenshots/EV-27-usb-sysmon-registry-persistence.png",
+    "bytes": 192524,
+    "sha256": "0cf1dd5ece20525044f8f3cfee55b49a617abc4837ade280d55956cd656cf4e7"
+  },
+  {
+    "path": "evidence/screenshots/EV-28-usb-runkey-payload-value.png",
+    "bytes": 154065,
+    "sha256": "adb4b1754c7fc47282924731f263a4de1206da357109b32aa27a6fa0618895f6"
+  },
+  {
+    "path": "evidence/screenshots/EV-29-usb-sysmon-file-copy.png",
+    "bytes": 155722,
+    "sha256": "21e43b7f47299c0e8fe716f0ee49a9dd1c2ba4a32e4b1c366cfc3a888024cceb"
+  },
+  {
+    "path": "evidence/screenshots/README.md",
+    "bytes": 575,
+    "sha256": "786131cf126bbe1df21c7db14979111b69a8c4262bdf9bc88e1934d31b0fe9bc"
+  },
+  {
+    "path": "queries/investigation-query-plan.md",
+    "bytes": 2445,
+    "sha256": "9ac558b596dec83a6c9f4a2a3ff04b7043741d8b7c33447cedc87367c1e24985"
+  },
+  {
+    "path": "reference-notes/Windows Logging for SOC.md",
+    "bytes": 5917,
+    "sha256": "24563d698eb401a615573234fc32afa18d87ce9578a481a67c71990256eb36b7"
+  },
+  {
+    "path": "reference-notes/Windows Threat Detection 1.md",
+    "bytes": 9730,
+    "sha256": "b12961236a2713ac43f93db2d80e9a514fcd8e817c5009df81d98ef67f092649"
+  },
+  {
+    "path": "reports/attack-timelines.md",
+    "bytes": 2221,
+    "sha256": "245b03d6dc288bc465da2fad9e301c4f2c2212dadedf5ec65b24da9858e599a9"
+  },
+  {
+    "path": "reports/incident-response-report.md",
+    "bytes": 4405,
+    "sha256": "f302efe0a83c5e727ab71f0e9a15e2c1d62a0c8b9ab84e7e6544c32248020012"
+  },
+  {
+    "path": "reports/initial-findings-report.md",
+    "bytes": 3507,
+    "sha256": "d77517341a0ff90278aac1758e3ea38ea4ca3b3b9e0129482cba36b0b538759f"
+  }
+]

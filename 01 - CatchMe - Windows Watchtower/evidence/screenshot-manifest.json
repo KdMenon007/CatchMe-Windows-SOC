@@ -1,0 +1,147 @@
+[
+  {
+    "file": "EV-01-supplied-screenshot.png",
+    "sha256": "65c18bbd2d56d75fde3d2aa756c6acc9b985b17b3025b0d03d8d02e083bda364",
+    "bytes": 327475
+  },
+  {
+    "file": "EV-02-supplied-screenshot.png",
+    "sha256": "195aa8438241f3cb82762515a486b94884bf091e24b47f00fa9a5f39f07ef335",
+    "bytes": 195596
+  },
+  {
+    "file": "EV-03-supplied-screenshot.png",
+    "sha256": "ff2d79c1f8935f38295a5dd732f785586f625836a4669f8322039f2a20df8c6a",
+    "bytes": 198779
+  },
+  {
+    "file": "EV-04-supplied-screenshot.png",
+    "sha256": "633f61f2aa6b6ac728a71bcee1d43fd84204faa247e6dabd94d574b689b2b16a",
+    "bytes": 177100
+  },
+  {
+    "file": "EV-05-supplied-screenshot.png",
+    "sha256": "9c643088c63b8052e14d1f81ef789772526196864d32d115a54f379b099a5f83",
+    "bytes": 329957
+  },
+  {
+    "file": "EV-06-supplied-screenshot.png",
+    "sha256": "8ba070ffe0a6eca95e0bf926e89dfeedf289b1638dd28fed9964c385d30587f7",
+    "bytes": 281007
+  },
+  {
+    "file": "EV-07-supplied-screenshot.png",
+    "sha256": "b5ab3d30ff0ec2f9f900067ae381292050b21ad94477e772c0ffb04607cad461",
+    "bytes": 280497
+  },
+  {
+    "file": "EV-08-supplied-screenshot.png",
+    "sha256": "dde7a08d746a17ae307d45b8c09514db083898f11bb1b3ae8e999311d87a407e",
+    "bytes": 213170
+  },
+  {
+    "file": "EV-09-supplied-screenshot.png",
+    "sha256": "93e9d36ed43eb9beafc1688a10e0b3fec4bc103dc0868150c7d611549f1a53d9",
+    "bytes": 226946
+  },
+  {
+    "file": "EV-10-supplied-screenshot.png",
+    "sha256": "c6849c4bdf9ab2f3b5fa4e3b7e9182f79c5335d5fb04121247fffccc9ceb0408",
+    "bytes": 246545
+  },
+  {
+    "file": "EV-11-supplied-screenshot.png",
+    "sha256": "566b8e1e759b6e3858b4dc7e27491f49bd7fdec5432b0984fe136dd62ea4156c",
+    "bytes": 140443
+  },
+  {
+    "file": "EV-12-supplied-screenshot.png",
+    "sha256": "fdcf492b7e875e8d2564f5122f3496b2a32e79788298acdb5ce42c0358141e38",
+    "bytes": 147843
+  },
+  {
+    "file": "EV-13-supplied-screenshot.png",
+    "sha256": "88135506929b71e3015f01db8aeed60450db2d34638ff08fa9d52b34354c113f",
+    "bytes": 154366
+  },
+  {
+    "file": "EV-14-supplied-screenshot.png",
+    "sha256": "37fab8d1cf42c8cdfdc8ad1f8cac4ebb5b0faec9a2bea454f3d15c3b45c1b07e",
+    "bytes": 299229
+  },
+  {
+    "file": "EV-15-supplied-screenshot.png",
+    "sha256": "6e06e2ad7b6009700900311fc339ddad8f5d1c15d78c0cd8da1d35ef637af803",
+    "bytes": 29338
+  },
+  {
+    "file": "EV-16-supplied-screenshot.png",
+    "sha256": "80fbed642c52cc95e157dc5562364a46d41f890b8964c8177560a5432b550153",
+    "bytes": 25228
+  },
+  {
+    "file": "EV-17-supplied-screenshot.png",
+    "sha256": "72c5f81952cff5bb2adf329ad5314879ee3ae3d1807dc6e54e0e08cfdb38dde8",
+    "bytes": 29457
+  },
+  {
+    "file": "EV-18-initial-access-exposed-services-overview.png",
+    "sha256": "99bab549628ff3aca88efcf8136ceb6fd360d5276c153ef5d5ae780135e156d4",
+    "bytes": 66375
+  },
+  {
+    "file": "EV-19-initial-access-user-driven-overview.png",
+    "sha256": "04b54d04d60e50afdd7667c5a7ce8bca6bdaafaacb974beedfc60f8304bf5869",
+    "bytes": 67444
+  },
+  {
+    "file": "EV-20-rdp-security-failed-and-successful-logons.png",
+    "sha256": "088d850bc668ff33e4ab7cf70f9396cfc2a7f16515291f1c9a6206c509c9c797",
+    "bytes": 198786
+  },
+  {
+    "file": "EV-21-rdp-successful-logon-source-and-workstation.png",
+    "sha256": "0ad16943f1089c11ca7951dda7f0e5d549aaa2afd6466292a470a65283996bf6",
+    "bytes": 136855
+  },
+  {
+    "file": "EV-22-phishing-case1-misleading-extension-executable.png",
+    "sha256": "980877bdf66f13512d6662eb3d418bd12a0e4db10f74cb086364f06eeeeeb147",
+    "bytes": 64006
+  },
+  {
+    "file": "EV-23-phishing-lnk-shortcut-target.png",
+    "sha256": "bc27c957c7a699f0f66e38777558c29ac87e85b4ad33d706701b1c90f557065d",
+    "bytes": 38818
+  },
+  {
+    "file": "EV-24-phishing-case3-files-and-sysmon-log.png",
+    "sha256": "383c10c1a2bff0ebc1d0695e262b0cee6c00c72704e6d5912f73e7508d8be55f",
+    "bytes": 26508
+  },
+  {
+    "file": "EV-25-phishing-case3-sysmon-process-creation.png",
+    "sha256": "44a0133b7e830bc157ecaaecdb29106ffb4be43d2a9951cc5b96ea70e5ce11fc",
+    "bytes": 177878
+  },
+  {
+    "file": "EV-26-phishing-case3-sysmon-dns-query.png",
+    "sha256": "32d505a3d574f3ce8b9a5ec4243579cd5a9411c2dd4463186e090bd90f8099aa",
+    "bytes": 118592
+  },
+  {
+    "file": "EV-27-usb-sysmon-registry-persistence.png",
+    "sha256": "0cf1dd5ece20525044f8f3cfee55b49a617abc4837ade280d55956cd656cf4e7",
+    "bytes": 192524
+  },
+  {
+    "file": "EV-28-usb-runkey-payload-value.png",
+    "sha256": "adb4b1754c7fc47282924731f263a4de1206da357109b32aa27a6fa0618895f6",
+    "bytes": 154065
+  },
+  {
+    "file": "EV-29-usb-sysmon-file-copy.png",
+    "sha256": "21e43b7f47299c0e8fe716f0ee49a9dd1c2ba4a32e4b1c366cfc3a888024cceb",
+    "bytes": 155722
+  }
+]
