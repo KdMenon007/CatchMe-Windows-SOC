@@ -1,5 +1,7 @@
 # CatchMe Project 02 — Operation Silent Recon
 
+![Project Banner](evidence/project-banner.png)
+
 **Focus:** Windows discovery, collection, ingress tool transfer, and command-and-control investigation  
 **Portfolio track:** CatchMe SOC Threat Hunting Series  
 **Evidence basis:** User-supplied screenshots and notes from a controlled TryHackMe training scenario.
