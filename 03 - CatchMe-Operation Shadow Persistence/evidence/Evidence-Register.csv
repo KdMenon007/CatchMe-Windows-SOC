@@ -1,0 +1,9 @@
+Evidence ID,Current Path,Filename,Type,SHA-256,Status,Notes
+E-001,evidence/incoming,Sysmon.evtx,Windows Event Log,0179b81f606627c097aad7aa4d08f98b67c639299d3dfd074b7db520e4791f2a,Received,"Original retained locally; parsed copy reviewed"
+E-002,evidence/incoming,URGENT!.zip,ZIP archive,2c5cd266738ab6f8ef7bc25077752eb8d25fe8b8942f2c733ee3c3ad3c6d925e,Received,"Suspicious archive; do not execute; retained locally"
+E-003,evidence/incoming,Security.evtx,Windows Event Log,65786bc73ce736950c9052e44d2c90abdb6792ef2bde9b5410ede853e673333c,Received,"Original retained locally; parsed copy reviewed"
+E-004,evidence/incoming,Security (All Time).evtx,Windows Event Log,85b574bda66d85bba87cae29d4ca3a477392e59fc18f02313434504da6b9747f,Received,"Original retained locally; parsed copy reviewed"
+E-005,evidence/incoming,Sysmon (After Reboot).evtx,Windows Event Log,ca783cbc2dc26abbb3b20ffdc71f7fe339fc061fc2f230085a09f635b7e873aa,Received,"Distinct after-reboot source; provenance should be confirmed"
+E-006,evidence/incoming,Sysmon (After Reboot) (copy 1).evtx,Windows Event Log,89723815b3f348a79e1004c4f32303f6116802257cf7e705de025ca7aee326a5,Received,"Different SHA-256 from E-005; preserve as separate source"
+E-007,evidence/incoming,Sysmon (Before Reboot).evtx,Windows Event Log,55e54b34016374865953ea550ebd7e5036ce11a4bca308a7fa39f6f98fa1e2e8,Received,"Original retained locally; parsed copy reviewed"
+E-008,evidence/quarantine,URGENT!.lnk,Windows shortcut,c1cf6aed425bdb859ea3b5fe35f9139f3b851e08886361b5b7045daf2dd92b29,Received,"Suspicious shortcut; retained locally; do not execute"
