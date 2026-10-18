@@ -1,0 +1,85 @@
+[
+  {
+    "file": "Security (All Time).evtx",
+    "records": 20,
+    "parse_errors": 0,
+    "event_ids": {
+      "1102": 1,
+      "4697": 7,
+      "4698": 5,
+      "4624": 3,
+      "4799": 2,
+      "4798": 2
+    }
+  },
+  {
+    "file": "Security.evtx",
+    "records": 31,
+    "parse_errors": 0,
+    "event_ids": {
+      "1102": 1,
+      "4624": 8,
+      "4625": 6,
+      "4648": 3,
+      "4611": 3,
+      "4799": 1,
+      "4728": 1,
+      "4720": 1,
+      "4722": 1,
+      "4738": 3,
+      "4724": 1,
+      "4732": 2
+    }
+  },
+  {
+    "file": "Sysmon (After Reboot) (copy 1).evtx",
+    "records": 97,
+    "parse_errors": 0,
+    "event_ids": {
+      "1": 76,
+      "13": 5,
+      "12": 3,
+      "255": 2,
+      "4": 1,
+      "6": 3,
+      "11": 4,
+      "22": 3
+    }
+  },
+  {
+    "file": "Sysmon (After Reboot).evtx",
+    "records": 69,
+    "parse_errors": 0,
+    "event_ids": {
+      "1": 27,
+      "13": 30,
+      "5": 1,
+      "11": 1,
+      "22": 2,
+      "12": 8
+    }
+  },
+  {
+    "file": "Sysmon (Before Reboot).evtx",
+    "records": 16,
+    "parse_errors": 0,
+    "event_ids": {
+      "1": 9,
+      "11": 1,
+      "22": 3,
+      "13": 3
+    }
+  },
+  {
+    "file": "Sysmon.evtx",
+    "records": 23,
+    "parse_errors": 0,
+    "event_ids": {
+      "1": 4,
+      "11": 7,
+      "15": 10,
+      "3": 1,
+      "22": 1
+    }
+  }
+]

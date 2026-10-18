@@ -1,0 +1,6 @@
+Sysmon (After Reboot).evtx: 69 parsed records
+Sysmon (After Reboot) (copy 1).evtx: 97 parsed records
+Matching event signatures: 0
+Unique signatures in first: 69
+Unique signatures in second: 97
+Compare record contents before deciding whether either file is redundant.
